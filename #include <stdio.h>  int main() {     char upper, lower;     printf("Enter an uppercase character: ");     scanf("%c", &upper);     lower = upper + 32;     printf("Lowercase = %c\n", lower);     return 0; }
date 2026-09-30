@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    char lower, upper;
+    printf("Enter a lowercase character: ");
+    scanf("%c", &lower);
+    upper = lower - 32;
+    printf("Uppercase = %c\n", upper);
+    return 0;
+}
